@@ -1,8 +1,8 @@
-def add_three_numbers(a, b, c):
+def add_three_numbers(a, b, c) -> int:
     """Receives three numbers, adds them together, and returns the result."""
     return a + b + c
 
-def test_add_three_numbers():
+def test_add_three_numbers() -> None:
     assert add_three_numbers(1, 2, 3) == 6
     assert add_three_numbers(-1, -2, -3) == -6
     assert add_three_numbers(0, 0, 0) == 0

@@ -1,4 +1,4 @@
-def multiply_and_sum(list1, list2):
+def multiply_and_sum(list1, list2) -> float:
     """Receives list1 and list2, multiplies each element of list1, multiplies 
     each element of list2. This results in two numbers. The function returns 
     the sum of these numbers."""
@@ -13,7 +13,7 @@ def multiply_and_sum(list1, list2):
     
     return product1 + product2
 
-def test_multiply_and_sum():
+def test_multiply_and_sum() -> None:
     assert multiply_and_sum([1, 2, 3], [4, 5, 6]) == 126
     assert multiply_and_sum([1, 2], [3, 4]) == 14
     assert multiply_and_sum([0, 1], [2, 3]) == 6 
