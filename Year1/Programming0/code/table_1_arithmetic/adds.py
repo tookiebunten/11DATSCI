@@ -1,1 +1,1 @@
-
+"""Receives three numbers, adds them together, and returns the result. """

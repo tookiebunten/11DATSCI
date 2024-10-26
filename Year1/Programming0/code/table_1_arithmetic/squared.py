@@ -1,1 +1,1 @@
-
+"""Return the square of a supplied number."""

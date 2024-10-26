@@ -1,1 +1,1 @@
-
+"""Receives two numbers and returns their difference as an absolute value.""" 
