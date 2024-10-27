@@ -1,4 +1,4 @@
-def rooted_sum(list):
+def rooted_sum(list) -> int:
     """Receives a list of args. Returns as an integer the square root of the 
     sum of a list of numbers."""
     
@@ -9,7 +9,7 @@ def rooted_sum(list):
     sqrt_result = int(sum_of_elements ** 0.5)
     return sqrt_result
 
-def test_rooted_sum():
+def test_rooted_sum() -> None:
     assert rooted_sum([1, 2, 3, 4]) == 3  # sqrt(10) = 3.162, int(3.162) = 3
     assert rooted_sum([4, 9, 16]) == 5  # sqrt(29) = 5.385, int(5.385) = 5
     assert rooted_sum([1, 1, 1, 1]) == 2  # sqrt(4) = 2, int(2) = 2
