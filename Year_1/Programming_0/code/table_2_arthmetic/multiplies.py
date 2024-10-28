@@ -1,0 +1,1 @@
+"""Receives list1 and list2. Each element of list1 is multiplied by the corresponding element in list 2 to produce a third list, the result of those element-wise multiples. Ensure that list1 and list2 are the same size, otherwise return an empty list.""" 
