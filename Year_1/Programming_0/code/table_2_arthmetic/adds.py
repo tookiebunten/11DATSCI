@@ -1,0 +1,1 @@
+"""Receives a  list of numbers, and returns the sum."""
