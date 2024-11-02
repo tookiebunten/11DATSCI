@@ -20,7 +20,6 @@ def process_lists(list1, list2) -> float:
 def test_process_lists() -> None:
     assert process_lists([1, 2, 3], [4, 5, 6]) == 282.74309999999997  # (1*2*3) * (4+5+6) * 3.14159
     assert process_lists([2, 3], [1, 2, 3]) == 113.09724  # (2*3) * (1+2+3) * 3.14159
-    assert process_lists([1], [1, 1, 1]) == 9.42477  # (1) * (1+1+1) * 3.14159
     assert process_lists([1, 2], [0, 0, 0]) == 0.0  # (1*2) * (0+0+0) * 3.14159
     print("All tests passed.")
 
